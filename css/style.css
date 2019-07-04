@@ -1,8 +1,10 @@
 html {
   font-size: 10px;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 body {
+  overflow-x: hidden;
   height: 100vh;
   width: 100%;
 }
@@ -196,11 +198,12 @@ footer {
     margin-bottom: 5rem;
   }
   .main-content img {
+    width: 80%;
     margin: 4rem 5rem;
     border: 3px solid black;
   }
   .main-content button {
-    margin: 0 22rem;
+    margin: 0 15rem;
   }
   .main-content-text {
     text-align: center;
@@ -234,5 +237,74 @@ footer {
   }
   .contacts .social {
     text-align: center;
+  }
+}
+@media (max-width: 499px) {
+  .main-header-menu {
+    text-align: center;
+  }
+  .main-header-contacts {
+    text-align: center;
+  }
+  .main-header-contacts a {
+    display: block;
+    margin-bottom: 5rem;
+  }
+  .main-content img {
+    margin: 3rem 2.5rem;
+    width: 80%;
+    border: 3px solid black;
+  }
+  .main-content button {
+    margin: 1rem 1rem;
+  }
+  .main-content-text {
+    text-align: center;
+  }
+  .main-content-text h1 {
+    font-size: 5rem;
+  }
+  .work-content-block {
+    border: 3px solid #f53f4f;
+    padding: 2.5rem;
+    margin-top: 2.5rem;
+    height: 24rem;
+  }
+  .portfolio-content {
+    text-align: center;
+  }
+  .portfolio-content-block {
+    margin: 0 auto;
+    margin-top: 3rem;
+    border: 3px solid #ff4e2e;
+  }
+  .portfolio-content img {
+    width: 90%;
+  }
+  .contacts-menu {
+    text-align: center;
+  }
+  .contacts-menu a {
+    display: inline-block;
+    margin: 0 3rem;
+  }
+  .contacts_link {
+    margin: 3rem 0;
+    text-align: center;
+  }
+  .contacts button {
+    margin: 2rem 3.7rem;
+  }
+  .contacts .social {
+    text-align: center;
+  }
+  .adaptive-header {
+    margin-left: 0;
+  }
+  .adaptive-header h3 {
+    font-size: 3.5rem;
+  }
+  .adaptive-header p {
+    font-size: 1rem;
   }
 }
