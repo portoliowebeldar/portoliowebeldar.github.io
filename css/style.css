@@ -1,10 +1,12 @@
+html,
+body {
+  overflow-x: hidden;
+}
 html {
   font-size: 10px;
   scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 body {
-  overflow-x: hidden;
   height: 100vh;
   width: 100%;
 }
@@ -46,9 +48,9 @@ body {
   font-size: 16px;
   font-weight: 400;
 }
-.main-header-menu a:hover {
-  color: #1f1f24;
+.main-header-menu a:hover:hover {
   text-decoration: none;
+  color: #f82370;
 }
 .main-header-menu a:focus {
   color: #fc557c;
@@ -111,6 +113,7 @@ body {
   margin: 9rem 0;
 }
 .portfolio-content p {
+  text-align: center;
   margin-top: 2.4rem;
   font-size: 1.8rem;
   color: #8993ad;
@@ -208,14 +211,14 @@ footer {
   .main-content-text {
     text-align: center;
   }
+  .work-content {
+    text-align: center;
+  }
   .work-content-block {
     border: 3px solid #f53f4f;
     padding: 2.5rem;
     margin-top: 2.5rem;
     height: 24rem;
-  }
-  .portfolio-content {
-    text-align: center;
   }
   .portfolio-content-block {
     margin-top: 3rem;
@@ -255,8 +258,8 @@ footer {
     width: 80%;
     border: 3px solid black;
   }
-  .main-content button {
-    margin: 1rem 1rem;
+  .main-content .btn_z button {
+    margin: 0 4rem;
   }
   .main-content-text {
     text-align: center;
@@ -281,6 +284,9 @@ footer {
   .portfolio-content img {
     width: 90%;
   }
+  .portfolio .btn_z button {
+    margin: 0 1rem;
+  }
   .contacts-menu {
     text-align: center;
   }
@@ -293,7 +299,7 @@ footer {
     text-align: center;
   }
   .contacts button {
-    margin: 2rem 3.7rem;
+    margin: 1rem 3.9rem;
   }
   .contacts .social {
     text-align: center;
